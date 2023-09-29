@@ -38,7 +38,6 @@ def loop_menu
         print "Digite o valor que quer depositar? "
         deposit = gets.chomp.to_f
         account.deposit(deposit)
-        puts account_balance
         system 'pause'
       when 2
         system 'clear'
